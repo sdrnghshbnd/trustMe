@@ -86,7 +86,7 @@ func diskStresser(id int, duration time.Duration, wg *sync.WaitGroup) {
 func systemStressTest() {
 	fmt.Println("ARRRRE YOUUUUUU READYYYYYYYYYYYYY ?\n")
 	fmt.Println("APOCALYPSE NOW !\n\n\n")
-	time.Sleep(2 * time.Second)
+	time.Sleep(3 * time.Second)
 
 	duration := 1 * time.Minute
 	numCPU := runtime.NumCPU()
